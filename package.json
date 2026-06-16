@@ -1,0 +1,10 @@
+{
+  "name": "browserbase-mcp-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx supergateway --stdio \"npx -y @browserbasehq/mcp@latest\" --port ${PORT:-3000}"
+  },
+  "dependencies": {
+    "supergateway": "latest"
+  }
+}
